@@ -1,12 +1,18 @@
 {
-  "name": "@magic/utils",
-  "version": "1.0.0",
-  "private": true,
+  "name": "magic-utils-yonava",
+  "version": "1.0.3",
+  "files": [
+    "dist"
+  ],
   "exports": {
-    "./*": "./src/*"
+    "./*": "./dist/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yonava/magic-utils.git"
   },
   "scripts": {
-    "build:types": "tsc -b .",
+    "build:types": "tsc -b tsconfig.json",
     "test": "vitest"
   },
   "peerDependencies": {
