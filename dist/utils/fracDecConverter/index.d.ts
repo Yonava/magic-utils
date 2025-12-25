@@ -1,4 +1,3 @@
-export declare const gcd: (a: number, b: number) => number;
 export declare const isNullOrUnd: (input: any) => boolean;
 export declare const isFraction: (input: string) => boolean;
 export declare const decimalToFraction: (decimalInput: number) => string;

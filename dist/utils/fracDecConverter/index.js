@@ -1,7 +1,7 @@
-export const gcd = (a, b) => (b ? gcd(b, a % b) : a);
+const gcd = (a, b) => (b ? gcd(b, a % b) : a);
 export const isNullOrUnd = (input) => input === null || input === undefined;
 export const isFraction = (input) => {
-    const fraction = input.trim().split('/').filter(Boolean);
+    const fraction = input.trim().split("/").filter(Boolean);
     if (fraction.length !== 2)
         return false;
     const [numerator, denominator] = fraction.map(Number);
@@ -28,7 +28,7 @@ export const decimalToFraction = (decimalInput) => {
 export const fractionToDecimal = (fractionInput) => {
     if (!isFraction(fractionInput))
         return;
-    const fraction = fractionInput.split('/');
+    const fraction = fractionInput.split("/");
     const [numerator, denominator] = fraction.map(Number);
     return numerator / denominator;
 };

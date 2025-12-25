@@ -1,11 +1,114 @@
 {
   "name": "magic-utils-yonava",
-  "version": "1.0.4",
+  "version": "1.0.7",
+  "type": "module",
   "files": [
     "dist"
   ],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "exports": {
-    "./*": "./dist/*"
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./ctx": {
+      "import": "./dist/utils/ctx.js",
+      "require": "./dist/utils/ctx.cjs.js",
+      "types": "./dist/utils/ctx.d.ts"
+    },
+    "./deepDelta": {
+      "import": "./dist/utils/deepDelta.js",
+      "require": "./dist/utils/deepDelta.cjs.js",
+      "types": "./dist/utils/deepDelta.d.ts"
+    },
+    "./fracDecConverter": {
+      "import": "./dist/utils/fracDecConverter.js",
+      "require": "./dist/utils/fracDecConverter.cjs.js",
+      "types": "./dist/utils/fracDecConverter.d.ts"
+    },
+    "./maybeGetter": {
+      "import": "./dist/utils/maybeGetter.js",
+      "require": "./dist/utils/maybeGetter.cjs.js",
+      "types": "./dist/utils/maybeGetter.d.ts"
+    },
+    "./clone": {
+      "import": "./dist/utils/clone.js",
+      "require": "./dist/utils/clone.cjs.js",
+      "types": "./dist/utils/clone.d.ts"
+    },
+    "./colors": {
+      "import": "./dist/utils/colors.js",
+      "require": "./dist/utils/colors.cjs.js",
+      "types": "./dist/utils/colors.d.ts"
+    },
+    "./debounce": {
+      "import": "./dist/utils/debounce.js",
+      "require": "./dist/utils/debounce.cjs.js",
+      "types": "./dist/utils/debounce.d.ts"
+    },
+    "./debugging": {
+      "import": "./dist/utils/debugging.js",
+      "require": "./dist/utils/debugging.cjs.js",
+      "types": "./dist/utils/debugging.d.ts"
+    },
+    "./deepMerge": {
+      "import": "./dist/utils/deepMerge.js",
+      "require": "./dist/utils/deepMerge.cjs.js",
+      "types": "./dist/utils/deepMerge.d.ts"
+    },
+    "./fps": {
+      "import": "./dist/utils/fps.js",
+      "require": "./dist/utils/fps.cjs.js",
+      "types": "./dist/utils/fps.d.ts"
+    },
+    "./hashing": {
+      "import": "./dist/utils/hashing.js",
+      "require": "./dist/utils/hashing.cjs.js",
+      "types": "./dist/utils/hashing.d.ts"
+    },
+    "./id": {
+      "import": "./dist/utils/id.js",
+      "require": "./dist/utils/id.cjs.js",
+      "types": "./dist/utils/id.d.ts"
+    },
+    "./localStorage": {
+      "import": "./dist/utils/localStorage.js",
+      "require": "./dist/utils/localStorage.cjs.js",
+      "types": "./dist/utils/localStorage.d.ts"
+    },
+    "./math": {
+      "import": "./dist/utils/math.js",
+      "require": "./dist/utils/math.cjs.js",
+      "types": "./dist/utils/math.d.ts"
+    },
+    "./mouse": {
+      "import": "./dist/utils/mouse.js",
+      "require": "./dist/utils/mouse.cjs.js",
+      "types": "./dist/utils/mouse.d.ts"
+    },
+    "./random": {
+      "import": "./dist/utils/random.js",
+      "require": "./dist/utils/random.cjs.js",
+      "types": "./dist/utils/random.d.ts"
+    },
+    "./sets": {
+      "import": "./dist/utils/sets.js",
+      "require": "./dist/utils/sets.cjs.js",
+      "types": "./dist/utils/sets.d.ts"
+    },
+    "./string": {
+      "import": "./dist/utils/string.js",
+      "require": "./dist/utils/string.cjs.js",
+      "types": "./dist/utils/string.d.ts"
+    },
+    "./types": {
+      "import": "./dist/utils/types.js",
+      "require": "./dist/utils/types.cjs.js",
+      "types": "./dist/utils/types.d.ts"
+    }
   },
   "repository": {
     "type": "git",
