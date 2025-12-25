@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      vue:
+        specifier: ^3.5.18
+        version: 3.5.22
     devDependencies:
       '@types/node':
         specifier: ^24.8.1
@@ -17,9 +21,6 @@ importers:
       vitest:
         specifier: ^3.2.4
         version: 3.2.4(@types/node@24.8.1)
-      vue:
-        specifier: ^3.5.18
-        version: 3.5.22
 
 packages:
 
