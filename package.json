@@ -1,6 +1,6 @@
 {
   "name": "magic-utils-yonava",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "type": "module",
   "files": [
     "dist"
@@ -15,24 +15,24 @@
       "types": "./dist/index.d.ts"
     },
     "./ctx": {
-      "import": "./dist/utils/ctx.js",
-      "require": "./dist/utils/ctx.cjs.js",
-      "types": "./dist/utils/ctx.d.ts"
+      "import": "./dist/utils/ctx/index.js.js",
+      "require": "./dist/utils/ctx/index.cjs.js",
+      "types": "./dist/utils/ctx/index.d.ts"
     },
     "./deepDelta": {
-      "import": "./dist/utils/deepDelta.js",
-      "require": "./dist/utils/deepDelta.cjs.js",
-      "types": "./dist/utils/deepDelta.d.ts"
+      "import": "./dist/utils/deepDelta/index.js",
+      "require": "./dist/utils/deepDelta/index.cjs.js",
+      "types": "./dist/utils/deepDelta/index.d.ts"
     },
     "./fracDecConverter": {
-      "import": "./dist/utils/fracDecConverter.js",
-      "require": "./dist/utils/fracDecConverter.cjs.js",
-      "types": "./dist/utils/fracDecConverter.d.ts"
+      "import": "./dist/utils/fracDecConverter/index.js",
+      "require": "./dist/utils/fracDecConverter/index.cjs.js",
+      "types": "./dist/utils/fracDecConverter/index.d.ts"
     },
     "./maybeGetter": {
-      "import": "./dist/utils/maybeGetter.js",
-      "require": "./dist/utils/maybeGetter.cjs.js",
-      "types": "./dist/utils/maybeGetter.d.ts"
+      "import": "./dist/utils/maybeGetter/index.js",
+      "require": "./dist/utils/maybeGetter/index.cjs.js",
+      "types": "./dist/utils/maybeGetter/index.d.ts"
     },
     "./clone": {
       "import": "./dist/utils/clone.js",
