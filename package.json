@@ -116,6 +116,7 @@
   },
   "scripts": {
     "build:types": "tsc -b tsconfig.json",
+    "republish": "rm -rf dist && npm run build:types && npm publish",
     "test": "vitest"
   },
   "peerDependencies": {
